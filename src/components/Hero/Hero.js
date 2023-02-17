@@ -15,7 +15,7 @@ function Hero() {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-  };
+  };  
   return (
     <main>
       <Dropdown isOpen={isOpen} toggle={toggle} />
@@ -23,26 +23,27 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm YourName</h1>
-            <h5>Frontend Developer</h5>
+            <h1>Hi, I'm Gustavo</h1>
+            <h5>Software Developer</h5>
             <p>
               I design and code beautifully simple things, and I love what I do.
             </p>
           </HeroLeft>
           <HeroRight>
             <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
-              alt="man-svgrepo"
+            
+            src="/assets/gustavo.png"
+              alt="Goose"
             />
           </HeroRight>
         </HeroWrapper>
-        <ScrollDown to="projects">
+        <ScrollDown to="projects">         
           <ScrollLink>
-            Scroll down
-            <img
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
+            Scroll down            
+            {/* <img
+              src=""
               alt="scroll-down"
-            />
+            /> */}
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>

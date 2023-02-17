@@ -8,6 +8,8 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 function ProjectCard() {
+  console.log(ProjectList.tech_stack)
+  console.log(ProjectList.demo_url)
   return (
     <>
       {ProjectList.map((list, index) => (
@@ -19,10 +21,12 @@ function ProjectCard() {
             <h4>{list.title}</h4>
             <p>{list.description}</p>
             <Stack>
-              <span className="stackTitle">Tech Stack -</span>
+              <span className="stackTitle">Technologies -</span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
+            {list.github_url!==undefined && list.demo_url!==undefined?
             <BtnGroup>
+            {list.github_url !== undefined?
               <a
                 className="btn btn2 SecondarBtn"
                 href={list.github_url}
@@ -30,7 +34,10 @@ function ProjectCard() {
                 rel="noopener noreferrer"
               >
                 Github
-              </a>
+              </a>:
+              <></>
+            }
+            {list.demo_url !== undefined?
               <a
                 className="btn PrimaryBtn"
                 href={list.demo_url}
@@ -38,8 +45,9 @@ function ProjectCard() {
                 rel="noopener noreferrer"
               >
                 Demo ➜
-              </a>
-            </BtnGroup>
+              </a>:<></>
+              } 
+            </BtnGroup>:<></>}
           </CardRight>
         </Card>
       ))}

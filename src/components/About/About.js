@@ -15,17 +15,18 @@ function About() {
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
           <Image
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+            src="/assets/gustavo2.JPG"
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+            Hello! My name is <strong>Gustavo Soto Reyes. </strong>  
+            I'm senior at Emory Univeristy currently stydying Computer Science. 
+            Throughout my undergraduate years  I made use of my summers by working 
+            as an intern at technology and digital marketing organizations, where 
+            I learned a lot about handling big data, creating dashboards, and web 
+            development. I'm currently employed as a full-stack developer at a startup 
+            that aims to enable people to realize their goals. I've already experienced a ton of growth in myself, and 
+            I'm eager to keep adding to my skill set.            
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
