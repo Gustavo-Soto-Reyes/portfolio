@@ -89,7 +89,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn>
         <a
           // className="btn PrimaryBtn"
-          // href="/assets/soto_reyes_gustavo_resume.pdf"
+          // href=""
           // target="_blank"
           // rel="noopener noreferrer"
         >
