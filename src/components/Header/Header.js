@@ -25,9 +25,8 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://www.linkedin.com/in/gustavosotoreyes/"
+            href={"/assets/soto_reyes_gustavo_resume.pdf"}
             target="_blank"
-            rel="noopener noreferrer"
           >
             Resume
           </a>
