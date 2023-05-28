@@ -8,6 +8,14 @@ export const ProjectList = [
     github_url: undefined,
     demo_url: undefined,
   },
+  {
+    img: "/assets/reffy.png",
+    title: "Reference Builder",
+    description: "An Application that helpst people write and organize reference letters",
+    tech_stack: "React, TypeScript, Go",
+    github_url: undefined,
+    demo_url: "https://refbuilder.com",
+  },
 ];
 
 // --------------------------------------- Skills

@@ -21,17 +21,17 @@ function ProjectCard() {
             <h4>{list.title}</h4>
             <p>{list.description}</p>
             <Stack>
-              <span className="stackTitle">Technologies -</span>
+              <span style={{whiteSpace:"nowrap"}} className="stackTitle">Technologies -</span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
-            {list.github_url!==undefined && list.demo_url!==undefined?
+            {list.github_url!==undefined || list.demo_url!==undefined?
             <BtnGroup>
             {list.github_url !== undefined?
               <a
                 className="btn btn2 SecondarBtn"
-                href={list.github_url}
+                href={"/"+list.demo_url}
                 target="_blank"
-                rel="noopener noreferrer"
+                // rel="noopener noreferrer"
               >
                 Github
               </a>:

@@ -20,7 +20,7 @@ function About() {
           />
           <div className="AboutBio">
             Hello! My name is <strong>Gustavo Soto Reyes. </strong>  
-            I'm senior at Emory Univeristy currently stydying Computer Science. 
+            I'm a recent graduate from Emory Univeristy, where I completed by Computer Science degree. 
             Throughout my undergraduate years  I made use of my summers by working 
             as an intern at technology and digital marketing organizations, where 
             I learned a lot about handling big data, creating dashboards, and web 
